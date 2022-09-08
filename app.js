@@ -14,6 +14,6 @@ $('button').on("click", function(){
 });
 
 $('.movies').on("click", ".remove", function(e){
-        $(this).parent('p').remove();
+        $(this).parent().remove();
     }
 )
